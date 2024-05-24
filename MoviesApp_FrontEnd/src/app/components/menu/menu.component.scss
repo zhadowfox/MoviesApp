@@ -1,0 +1,9 @@
+.bg-menu{
+    background-color:#181A1C;
+}
+ul:hover>li:not(:hover){
+    opacity: 0.5;
+}
+li{
+    transition: ease-in-out 0.2s;
+}

@@ -1,0 +1,14 @@
+.input-field{
+    cursor: pointer;
+}
+.input-field.error{
+    border: 1px #f00 solid!important;
+    color:#f00!important;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
