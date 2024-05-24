@@ -1,0 +1,41 @@
+    <div class="container">
+        <div class="row justify-content-center align-items-center d-flex vh-100">
+            <div class=" col-lg-5 col-md-7">
+                <div class="panel rounded rounded-3 shadow text-light bg-dark">
+                    <div class="panel-heading">
+                        <h3 class="pt-3 fw-bold text-center">
+                            Registrarse
+                        </h3>
+                    </div>  
+                    <div class="panel-body p-3">
+                        <form [formGroup]="signUpForm">
+                            <div class="form-group text-secondary">
+                                <div class="input-field rounded-2 p-2 w-100 bg-white mt-3 d-flex align-items-center"  [class.error]="signUpForm.controls['email'].dirty && signUpForm.hasError('required','email')">
+                                    <i class="bi bi-envelope me-2 text-dark"></i>
+                                    <input type="text" formControlName="email"   id="" class="w-100" placeholder="Correo Electronico">
+                                </div>
+                                <small *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required','email')"  class="text-danger">*El correo electrónico es obligatorio.</small>
+                                <div class="input-field rounded-2 p-2 w-100 bg-white mt-3 d-flex align-items-center">
+                                    <i class="bi bi-person-vcard me-2 text-dark"></i>
+                                    <input type="text"  formControlName="names"  id="" class="w-100" placeholder="Nombres"  [class.error]="signUpForm.controls['names'].dirty && signUpForm.hasError('required','names')">
+                                </div>
+                                <small *ngIf="signUpForm.controls['names'].dirty && signUpForm.hasError('required','names')"  class="text-danger">*El nombre es obligatorio.</small>
+                                <div class="input-field rounded-2 p-2 w-100 bg-white mt-3 d-flex align-items-center">
+                                    <i class="bi bi-person-vcard me-2 text-dark"></i>
+                                    <input type="text" formControlName="lastnames" id="" class="w-100" placeholder="Apellidos">
+                                </div>
+                                <div class="input-field rounded-2 p-2 w-100 bg-white  mt-3 d-flex align-items-center"  [class.error]="signUpForm.controls['password'].dirty && signUpForm.hasError('required','password')" >
+                                    <i class="bi bi-lock me-2 text-dark"></i>
+                                    <input [type]="type" formControlName="password"   id="" class="w-100" placeholder="Contraseña">
+                                    <i (click)="hideShowPassword()" class="{{eyeIcon}} text-dark"></i>
+                                </div>
+                                <small *ngIf="signUpForm.controls['password'].dirty && signUpForm.hasError('required','password')"  class="text-danger">*La contraseña es obligatoria.</small>
+                            </div>
+                            <button (click)="onSignUp();" type="submit" class="btn btn-primary mt-4 w-100 fw-bold">Registrarse</button>
+                            <div class="text-center text-light-subtle mt-4">¿Ya tienes una cuenta? <a routerLink="/login" class="text-light fw-bold text-decoration-none">Inicia sesión aquí</a></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
