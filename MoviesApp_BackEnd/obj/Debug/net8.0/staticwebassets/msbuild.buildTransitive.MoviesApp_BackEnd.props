@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\MoviesApp_BackEnd.props" />
-</Project>
