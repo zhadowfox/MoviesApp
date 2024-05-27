@@ -1,0 +1,6 @@
+@MoviesApp_BackEnd_HostAddress = http://localhost:5063
+
+GET {{MoviesApp_BackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
