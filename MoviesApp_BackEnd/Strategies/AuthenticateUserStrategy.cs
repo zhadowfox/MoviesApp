@@ -19,8 +19,7 @@ namespace MoviesApp_BackEnd.Strategies
         {
 
 
-            Users user = await _dbcontext.Users
-                 .FirstOrDefaultAsync(x => x.Email == userObj.Email);
+            Users user = await _dbcontext.Users.FirstOrDefaultAsync(x => x.Email == userObj.Email);
 
 
 

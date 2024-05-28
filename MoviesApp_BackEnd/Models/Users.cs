@@ -9,11 +9,11 @@ namespace MoviesApp_BackEnd.Models
         
         [Key]
         public long Id { get; set; }
-        public string Names { get; set; }
-        public string LastNames { get; set; }
-        public string Email { get; set; }
+        public string? Names { get; set; }
+        public string? LastNames { get; set; }
+        public string? Email { get; set; }
         
-        public string Password { get; set; }
+        public string? Password { get; set; }
         public string? Token { get; set; }
 
         private int _DefaultUserRol = 2;
