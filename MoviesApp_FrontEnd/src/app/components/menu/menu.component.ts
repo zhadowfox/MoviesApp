@@ -8,6 +8,7 @@ import { UserStoreService } from '../../services/user-store.service';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit{
+  searchTerm: string="";
   constructor(private auth: AuthService  , private router: Router, private userStore : UserStoreService) { 
   }
   private isAdmin:any="";
@@ -16,6 +17,12 @@ export class MenuComponent implements OnInit{
       this.isAdmin= val
       console.log(this.isAdmin)
     })
+  }
+  searchMovie(event:any){
+    event.preventDefault();
+    if (this.searchTerm) {
+      this.router.navigate(['/movies/search'], { queryParams: { keyword: this.searchTerm } });
+    }
   }
   logOut(){ return this.auth.logginOut();}
   loggedIn() { return this.auth.isLoggedIn();}

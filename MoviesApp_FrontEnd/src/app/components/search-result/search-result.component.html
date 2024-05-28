@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of listOfFindedMovies"  >
+        <div class="col-lg-3 col-xxl-4 col-xl-4  col-md-3 col-12" *ngIf="item.backdrop_path" >
+            <img src="https://image.tmdb.org/t/p/original/{{ item.backdrop_path }}" class="img-search-result img-thumbnail" alt="">
+            <p class="fs-5 text-light  fw-bold">{{ item.title }}</p>
+            <p class="fs-6 text-light">{{ item.overview }}</p>
+        </div>
+    </ng-container>
+    </div>
+</div>

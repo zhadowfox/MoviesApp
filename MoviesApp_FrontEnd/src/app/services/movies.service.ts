@@ -7,6 +7,7 @@ import { MovieResponse, Movie } from '../interfaces/movies.interface';
 })
 export class MoviesService{
   private popularMoviesUrl:string = "https://api.themoviedb.org/3/movie/popular"
+  private searchMoviesUrl:string = "https://api.themoviedb.org/3/search/movie?query="
   private header: any = {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
@@ -17,6 +18,10 @@ export class MoviesService{
   popularMovies(): Observable<MovieResponse> {
     const response:any = this.httpClient.get(this.popularMoviesUrl,{ headers : new HttpHeaders(this.header)})
     return response;
+  }
+  searchMovie(keyword:string):Observable<MovieResponse>{
+    const response:any = this.httpClient.get(this.searchMoviesUrl+keyword,{ headers : new HttpHeaders(this.header)})
+    return response
   }
   getMovieDetails():Observable<any>{
     const response:any = this.httpClient.get(this.popularMoviesUrl,{ headers : new HttpHeaders(this.header)})

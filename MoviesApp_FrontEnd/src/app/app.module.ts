@@ -14,6 +14,8 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
 import { TokenInterceptor } from './interceptors/token.interceptor';
+import { FormsModule } from '@angular/forms';
+import { SearchResultComponent } from './components/search-result/search-result.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,9 +23,10 @@ import { TokenInterceptor } from './interceptors/token.interceptor';
     SignupComponent,
     NotfoundErrorComponent,
     IndexComponent,
-  MenuComponent,
+    MenuComponent,
     AdmindashboardComponent,
-    UserprofileComponent
+    UserprofileComponent,
+    SearchResultComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { TokenInterceptor } from './interceptors/token.interceptor';
     RouterOutlet,
     RouterModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     {

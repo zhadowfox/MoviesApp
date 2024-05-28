@@ -15,6 +15,7 @@ const routes: Routes = [
   {path:"signup",component:SignupComponent},
   {path:"profile",component:UserprofileComponent,canActivate: [AuthGuard]},
   {path:"dashboardadmin",component:AdmindashboardComponent,canActivate: [AuthGuard,adminZoneGuard]},
+  {path:"movies",loadChildren: () => import ("./movies-routing.module").then(m=>m.MoviesRoutingModule)},
   {path:"**",component:NotfoundErrorComponent }
 ];
 @NgModule({

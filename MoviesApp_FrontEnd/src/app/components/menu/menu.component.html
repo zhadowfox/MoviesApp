@@ -17,8 +17,8 @@
             <a class="nav-link text-light" routerLinkActive="isActive"  routerLink="signup" >Registrarse</a>
           </li>
         </ul>
-        <form class="d-flex w-100 w-lg-100 ms-0 ms-0 ms-lg-5" role="search">
-          <input class="form-control me-2 fs-7" type="search" placeholder="Buscar Pelicula" aria-label="Search">
+        <form class="d-flex w-100 w-lg-100 ms-0 ms-0 ms-lg-5" role="search" (submit)="searchMovie($event)">
+          <input class="form-control me-2 fs-7" [(ngModel)]="searchTerm"  type="search" name="searchTerm" placeholder="Buscar Pelicula" aria-label="Search">
           <button class="btn btn-light" type="submit">Buscar</button>
         </form>
         <span class="nav-item text-decoration-none" *ngIf="loggedIn()"  >
