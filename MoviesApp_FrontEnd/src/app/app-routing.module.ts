@@ -9,7 +9,8 @@ import { AuthGuard } from './guards/auth.guard';
 import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
 import { adminZoneGuard } from './guards/admin-zone.guard';
 const routes: Routes = [
-  {path:"", component: IndexComponent},
+  {path:"", redirectTo: '/home', pathMatch: 'full' },
+  {path:"home", component: IndexComponent},
   {path:"login", component: LoginComponent},
   {path:"signup",component:SignupComponent},
   {path:"profile",component:UserprofileComponent,canActivate: [AuthGuard]},

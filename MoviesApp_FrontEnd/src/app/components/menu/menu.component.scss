@@ -2,8 +2,20 @@
     background-color:#181A1C;
 }
 ul:hover>li:not(:hover){
-    opacity: 0.5;
+    opacity: 0.8;
 }
 li{
     transition: ease-in-out 0.2s;
 }
+.dropdown-toggle::after{
+    display: none;
+}
+.isActive{
+    transform: translatey(-5%);
+}
+.nav-link{
+    transition: ease-in-out 0.2s;
+}
+.navbar-toggler:focus {
+    box-shadow: none!important;
+  }

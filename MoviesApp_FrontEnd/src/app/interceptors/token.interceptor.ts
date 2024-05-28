@@ -11,7 +11,9 @@ export class TokenInterceptor implements HttpInterceptor {
     const myToken = this.auth.getToken();
     console.log(req.headers)
     if(req.headers && req.headers.has(InterceptorSkip)){
-      return next.handle(req)
+      const headers = req.headers.delete(InterceptorSkip);
+      const clonedRequest = req.clone({ headers });
+      return next.handle(clonedRequest);
     }
     if(myToken){
       req=req.clone({

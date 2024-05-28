@@ -2,42 +2,38 @@
 <nav class="navbar navbar-expand-lg bg-menu">
     <div class="container-fluid">
       <a class="navbar-brand text-light" routerLink=""><i class="bi bi-film"></i></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bi bi-three-dots-vertical text-light"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex w-100">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex text-nowrap">
           <li class="nav-item">
-            <a class="nav-link text-light" aria-current="page" routerLink="/">Inicio</a>
+            <a class="nav-link text-light" aria-current="page" routerLinkActive="isActive" routerLink="/home">Inicio</a>
           </li>
           <li class="nav-item" *ngIf="!loggedIn()">
-            <a class="nav-link text-light" routerLink="/login">Iniciar Sesion</a>
+            <a class="nav-link text-light" routerLinkActive="isActive" routerLink="/login">Iniciar Sesion</a>
           </li>
           <li class="nav-item" *ngIf="!loggedIn()">
-            <a class="nav-link text-light" routerLink="signup" >Registrarse</a>
-          </li>
-          <li *ngIf="loggedIn()" class="nav-item dropdown-center ms-lg-auto ms-0 dropd">
-            <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Mi Perfil
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end  bg-menu border-0">
-              <li class="nav-item"><a class="nav-link text-light" >Editar Perfil</a></li>
-              <li class="nav-item"><a class="nav-link text-light" routerLink="dashboardadmin">Administrar Usuarios</a></li>
-              <li class="nav-item"><a class="nav-link text-light" >Mis Favoritas</a></li>
-              <li ><hr class="dropdown-divider"></li>
-              <li class="nav-item"><a class="nav-link text-light" (click)="logOut()">Cerrar Sesión</a></li>
-            </ul>
+            <a class="nav-link text-light" routerLinkActive="isActive"  routerLink="signup" >Registrarse</a>
           </li>
         </ul>
+        <form class="d-flex w-100 w-lg-100 ms-0 ms-0 ms-lg-5" role="search">
+          <input class="form-control me-2 fs-7" type="search" placeholder="Buscar Pelicula" aria-label="Search">
+          <button class="btn btn-light" type="submit">Buscar</button>
+        </form>
+        <span class="nav-item text-decoration-none" *ngIf="loggedIn()"  >
+            <a href="#" class="nav-link text-light dropdown-toggle no-after mx-lg-3 mx-0" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-circle fs-4"></i>
+              </a>
+            <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end bg-menu border-0 p-3">
+              <li class="nav-item mb-2"><a class="nav-link text-light" >Editar Perfil</a></li>
+              <li class="nav-item mb-2"><a class="nav-link text-light" routerLink="dashboardadmin">Administrar Usuarios</a></li>
+              <li class="nav-item mb-2"><a class="nav-link text-light" >Mis Favoritas</a></li>
+              <li ><hr class="dropdown-divider"></li>
+              <li class="nav-item mb-2"><a class="nav-link text-light" (click)="logOut()">Cerrar Sesión</a></li>
+            </ul>
+         </span>
       </div>
-    </div>
-  </nav>
-  <nav class="navbar navbar-expand-lg bg-menu ">
-    <div class="container-fluid justify-content-center">
-      <form class="d-flex w-100 w-lg-100" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar Pelicula" aria-label="Search">
-        <button class="btn btn-light" type="submit">Buscar</button>
-      </form>
     </div>
   </nav>
 </header>

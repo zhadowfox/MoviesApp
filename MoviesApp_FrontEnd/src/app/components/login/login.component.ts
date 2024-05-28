@@ -44,7 +44,7 @@ export class LoginComponent{
           if (idRolFromToken == 1){
           return this.router.navigate(['/dashboardadmin'])
           }
-          return this.router.navigate(['/profile'])
+          return this.router.navigate(['/'])
       },
       error:(err)=> {
         this.loginResultVisible=true

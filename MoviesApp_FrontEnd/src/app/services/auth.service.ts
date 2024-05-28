@@ -6,7 +6,7 @@ import { JwtHelperService } from '@auth0/angular-jwt';
   providedIn: 'root'
 })
 export class AuthService {
-  private baseUrl:string ="http://localhost:5131/api/User/"
+  private baseUrl:string ="http://localhost:5063/api/User/"
   private userPayload :any;
   constructor(private http: HttpClient , private router : Router) {
     this.userPayload = this.decodeToken();
@@ -42,8 +42,6 @@ export class AuthService {
   getRolFromToken(){
     if(this.userPayload)
     return this.userPayload.IdRol
-    const jwtHelper = new JwtHelperService();
-    const token:any= this.getToken();
-    return jwtHelper.decodeToken(token).IdRol
+    return this.decodeToken()
   }
 }

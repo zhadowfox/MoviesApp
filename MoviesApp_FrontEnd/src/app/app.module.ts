@@ -21,7 +21,7 @@ import { TokenInterceptor } from './interceptors/token.interceptor';
     SignupComponent,
     NotfoundErrorComponent,
     IndexComponent,
-    MenuComponent,
+  MenuComponent,
     AdmindashboardComponent,
     UserprofileComponent
   ],
