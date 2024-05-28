@@ -2,12 +2,12 @@
 </div>
 <div class="carousel">
     <div class="list">
-        <div class="item" *ngFor="let movie of popularMovies">
-            <img src="https://image.tmdb.org/t/p/original/{{movie.backdrop_path}}" alt="">
+        <div class="item" >
+            <img [src]="'https://image.tmdb.org/t/p/original/' +startingMovie?.backdrop_path" alt="" class="movie-image"  [ngClass]="{'movie-image': true, 'fade': fadeClass}">
             <div class="content ps-3 pt-2 pb-2 rounded rounded">
-                <div class="movie-tittle text-light fw-bolder fs-1">{{movie.title}}</div>
-                <div class="movie-description text-light fs-6">{{movie.overview}}</div>
-                <div class="movie-release-date text-light fs-6 mt-2">Release: {{movie.release_date}}</div>
+                <div class="movie-tittle text-light fw-bolder fs-1">{{startingMovie?.title}}</div>
+                <div class="movie-description text-light fs-6">{{startingMovie?.overview}}</div>
+                <div class="movie-release-date text-light fs-6 mt-2">Release: {{startingMovie?.release_date}}</div>
                 <div class="movie-buttons">
                     <button type="button" class="btn-sm btn-light btn mt-3 p-2 m-1">See more</button>
                     <button type="button" class="btn-sm btn-dark btn mt-3 p-2 m-1 border-light" *ngIf="isLoggedIn">Add to favorites </button>
@@ -19,8 +19,9 @@
         <div class="title-section">
             <h1 class="fs-6 text-light">Populares: </h1>
         </div>
-        <div class="item" *ngFor="let movie of popularMovies">
-            <img src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="">
+        <div class="item" *ngFor="let movie of popularMovies; let idx = index">
+            <img src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="" class="thumb-image" (click)="focusMovie(idx)">
+            <img src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}"class="thumbnail-img-shadow" alt="">
         </div>
     </div>
 </div>

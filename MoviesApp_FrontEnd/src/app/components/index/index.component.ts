@@ -8,12 +8,19 @@ import { AuthService } from '../../services/auth.service';
   styleUrl: './index.component.scss'
 })
 export class IndexComponent implements OnInit{
-  constructor(private moviesServices :MoviesService, private auth:AuthService){}
+  constructor(private moviesServices :MoviesService, private auth:AuthService){
+  }
   public isLoggedIn:boolean = false;
   public popularMovies:Movie[]=[]
+  startingMovie!:Movie | undefined;
+  fadeClass:boolean=false;
   ngOnInit() {
     this.moviesServices.popularMovies().subscribe({next:(res:any)=>{
       this.popularMovies=this.getRandomMovies(res.results, 5)
+      if (this.popularMovies.length > 0) {
+        this.startingMovie = this.popularMovies[0];
+      }
+      console.log(this.popularMovies[0])
     },error:(err:any)=>{
       console.log(err)
     }})
@@ -27,5 +34,13 @@ export class IndexComponent implements OnInit{
     }
     // Return the first `numItems` elements
     return array.slice(0, numItems);
+  }
+  focusMovie(index:number){
+    if (this.startingMovie?.id===this.popularMovies[index].id) return;
+    this.fadeClass = false; 
+    setTimeout(() => {
+      this.startingMovie= this.popularMovies[index]
+      this.fadeClass = true;
+    }, 10);
   }
 }

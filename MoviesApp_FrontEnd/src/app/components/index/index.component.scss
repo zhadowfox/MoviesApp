@@ -1,3 +1,10 @@
+@keyframes fade {
+    from { opacity: 0.3; }
+    to { opacity: 1; }
+  }
+  .fade {
+    animation: fade 1s ease;
+  }
 .carousel{
     width: 100vw;
     height: 100vh;
@@ -11,6 +18,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover ;
+    opacity: 1;
 }
 .carousel .list .item .content{
     position: absolute;
@@ -38,15 +46,17 @@ height: 220px;
 flex-shrink: 0;
 position: relative;
 }
-.thumbnails .item img{
+.thumbnails .item .thumb-image{
+    position: relative;
     cursor: pointer;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
     transition: 0.2s ease-in-out;
+    z-index: 103;
 }
-.thumbnails .item img:hover{
+.thumbnails .item .thumb-image:hover{
 transform:scale(1.1)
 }
 .title-section{
@@ -55,4 +65,15 @@ transform:scale(1.1)
     z-index: 101;
     width: 100%;
     text-shadow: 0 5px 8px #000;
+}
+.thumbnail-img-shadow{
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: blur(1.5rem);
+    z-index: 102;
 }
