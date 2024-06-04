@@ -31,7 +31,8 @@ export class LoginComponent{
     this.isText ? this.type = "text" : this.type = "password"
   }
   onLogin(){
-     if (this.loginForm.invalid) return console.log("Formulario de inicio de sesion vacio"), ValidateForm.validateAllFormFields(this.loginForm);
+     if (this.loginForm.invalid) return console.log("Formulario de inicio de sesion vacio"),
+      ValidateForm.validateAllFormFields(this.loginForm);
      this.auth.login(this.loginForm.value)
      .subscribe({
       next:(res)=>{

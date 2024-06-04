@@ -1,0 +1,21 @@
+<div class="container mt-5  text-light mh-100">
+    <div class="row text-light justify-content-center">
+        <div class="row text-center">
+            <h1 class="mt-5">{{movie?.title}}</h1>
+        </div>
+        <div class="col col-lg-3 col-xxl-3 d-flex">
+            <img src="https://image.tmdb.org/t/p/original/{{movie?.poster_path}}" class="rounded-2 shadow m-auto" alt="">
+        </div>
+        <div class="col col-lg-3">
+            <p>{{movie?.overview}}</p>
+            <p class="lh-xl mt-2">Fecha de estreno: {{movie?.release_date}}</p>
+            <p>Generos:</p>
+            @for (genre of movie?.genres; track genre) {
+               <span class="badge rounded-pill text-bg-light mx-2 ">{{genre.name}}</span>
+           }
+            <p class="text-lg-end text-center lh-1 text-light my-4 ">
+                <app-addtofav [movieId]="movie?.id ?? 0"></app-addtofav>
+                <a href="{{movie?.homepage}}" class="text-decoration-none btn btn-dark  p-2 mx-2">Web oficial</a></p>
+        </div>
+    </div>
+</div>

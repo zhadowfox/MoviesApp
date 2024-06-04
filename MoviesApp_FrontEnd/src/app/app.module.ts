@@ -16,9 +16,12 @@ import { UserprofileComponent } from './components/userprofile/userprofile.compo
 import { TokenInterceptor } from './interceptors/token.interceptor';
 import { FormsModule } from '@angular/forms';
 import { SearchResultComponent } from './components/search-result/search-result.component';
+import { MoviedetailsComponent } from './components/moviedetails/moviedetails.component';
+import { AddtofavComponent } from './components/addtofav/addtofav.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AddtofavComponent,
     LoginComponent,
     SignupComponent,
     NotfoundErrorComponent,
@@ -26,7 +29,9 @@ import { SearchResultComponent } from './components/search-result/search-result.
     MenuComponent,
     AdmindashboardComponent,
     UserprofileComponent,
-    SearchResultComponent
+    SearchResultComponent,
+    MoviedetailsComponent,
+    AddtofavComponent
   ],
   imports: [
     BrowserModule,

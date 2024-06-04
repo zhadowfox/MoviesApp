@@ -20,7 +20,6 @@ export class IndexComponent implements OnInit{
       if (this.popularMovies.length > 0) {
         this.startingMovie = this.popularMovies[0];
       }
-      console.log(this.popularMovies[0])
     },error:(err:any)=>{
       console.log(err)
     }})
