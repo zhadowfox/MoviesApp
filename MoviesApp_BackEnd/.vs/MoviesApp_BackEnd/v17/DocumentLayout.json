@@ -7,32 +7,60 @@
       "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\models\\usersfavoritemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:models\\usersfavoritemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\signupuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\signupuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\deletefromfavstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\deletefromfavstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\interfaces\\imoviesstrategies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:interfaces\\imoviesstrategies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\addtofavstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\addtofavstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\seeallusersstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\seeallusersstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\authenticateuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\authenticateuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\myfavmoviesstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\myfavmoviesstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\models\\usersfavoritemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:models\\usersfavoritemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\models\\strategymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:models\\strategymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\interfaces\\iuserstrategies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:interfaces\\iuserstrategies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\moviesapp_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:moviesapp_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\authenticateuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\authenticateuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\signupuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|solutionrelative:strategies\\signupuserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF0432CE-5173-4676-9AE7-4BDD913D5611}|MoviesApp_BackEnd.csproj|d:\\repos\\moviesapp 1.0\\moviesapp_backend\\strategies\\seeanuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,15 +94,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddToFavStrategy.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\AddToFavStrategy.cs",
+              "RelativeDocumentMoniker": "Strategies\\AddToFavStrategy.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\AddToFavStrategy.cs",
+              "RelativeToolTip": "Strategies\\AddToFavStrategy.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:39:02.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
               "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Controllers\\MoviesController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBMAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T15:22:30.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMoviesStrategies.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Interfaces\\IMoviesStrategies.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMoviesStrategies.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Interfaces\\IMoviesStrategies.cs",
+              "RelativeToolTip": "Interfaces\\IMoviesStrategies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:48:54.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T15:07:43.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteFromFavStrategy.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\DeleteFromFavStrategy.cs",
+              "RelativeDocumentMoniker": "Strategies\\DeleteFromFavStrategy.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\DeleteFromFavStrategy.cs",
+              "RelativeToolTip": "Strategies\\DeleteFromFavStrategy.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:48:58.675Z",
               "EditorCaption": ""
             },
             {
@@ -85,66 +165,53 @@
               "RelativeDocumentMoniker": "Strategies\\SeeAllUsersStrategy.cs",
               "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\SeeAllUsersStrategy.cs",
               "RelativeToolTip": "Strategies\\SeeAllUsersStrategy.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBQAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwAwAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T18:27:00.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignUpUserStrategy.cs",
-              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\SignUpUserStrategy.cs",
-              "RelativeDocumentMoniker": "Strategies\\SignUpUserStrategy.cs",
-              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\SignUpUserStrategy.cs",
-              "RelativeToolTip": "Strategies\\SignUpUserStrategy.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADwvx0AAAAMAAAA",
+              "DocumentIndex": 6,
+              "Title": "MyFavMoviesStrategy.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\MyFavMoviesStrategy.cs",
+              "RelativeDocumentMoniker": "Strategies\\MyFavMoviesStrategy.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\MyFavMoviesStrategy.cs",
+              "RelativeToolTip": "Strategies\\MyFavMoviesStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T16:16:35.973Z",
+              "WhenOpened": "2024-06-04T22:17:55.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAMwD0AAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "StrategyModel.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Models\\StrategyModel.cs",
+              "RelativeDocumentMoniker": "Models\\StrategyModel.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Models\\StrategyModel.cs",
+              "RelativeToolTip": "Models\\StrategyModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T15:07:43.947Z",
+              "WhenOpened": "2024-06-04T22:45:07.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "UsersFavoriteMovies.cs",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Models\\UsersFavoriteMovies.cs",
               "RelativeDocumentMoniker": "Models\\UsersFavoriteMovies.cs",
               "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Models\\UsersFavoriteMovies.cs",
               "RelativeToolTip": "Models\\UsersFavoriteMovies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T16:17:04.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAQwCgAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T18:26:39.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Users.cs",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Users.cs",
@@ -157,20 +224,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "IUserStrategies.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Interfaces\\IUserStrategies.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserStrategies.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Interfaces\\IUserStrategies.cs",
+              "RelativeToolTip": "Interfaces\\IUserStrategies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:38:56.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AuthenticateUserStrategy.cs",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\AuthenticateUserStrategy.cs",
               "RelativeDocumentMoniker": "Strategies\\AuthenticateUserStrategy.cs",
               "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\AuthenticateUserStrategy.cs",
               "RelativeToolTip": "Strategies\\AuthenticateUserStrategy.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAMwBUAAABjAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwCQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T15:09:32.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "MoviesApp_BackEnd",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\MoviesApp_BackEnd.csproj",
+              "RelativeDocumentMoniker": "MoviesApp_BackEnd.csproj",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\MoviesApp_BackEnd.csproj",
+              "RelativeToolTip": "MoviesApp_BackEnd.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T22:00:32.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:26:39.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SignUpUserStrategy.cs",
+              "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\SignUpUserStrategy.cs",
+              "RelativeDocumentMoniker": "Strategies\\SignUpUserStrategy.cs",
+              "ToolTip": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\SignUpUserStrategy.cs",
+              "RelativeToolTip": "Strategies\\SignUpUserStrategy.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvx0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:16:35.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -182,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "SeeAnUser.cs",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Strategies\\SeeAnUser.cs",
               "RelativeDocumentMoniker": "Strategies\\SeeAnUser.cs",
@@ -194,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\repos\\MoviesApp 1.0\\MoviesApp_BackEnd\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",

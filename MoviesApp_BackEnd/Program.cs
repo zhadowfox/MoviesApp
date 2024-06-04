@@ -6,6 +6,13 @@ using Microsoft.IdentityModel.Tokens;
 using MoviesApp_BackEnd.Context;
 using System.Text;
 using System;
+using MoviesApp_BackEnd.Interfaces;
+using MoviesApp_BackEnd.Strategies;
+using MoviesApp_BackEnd.Controllers;
+using MoviesApp_BackEnd.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
@@ -19,6 +26,10 @@ builder.Services.AddCors(option =>
         builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
     });
 });
+
+builder.Services.AddScoped<IMoviesStrategies<long>, MyFavMoviesStrategy>();
+builder.Services.AddScoped<IMoviesStrategies<UsersFavoriteMovies>, AddToFavStrategy>();
+builder.Services.AddScoped<IMoviesStrategies<long>, DeleteFromFavStrategy>();
 builder.Services.AddDbContext<DbMoviesAppContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnStr"));
