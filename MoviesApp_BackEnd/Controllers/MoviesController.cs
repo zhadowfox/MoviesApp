@@ -1,4 +1,9 @@
+using Microsoft.AspNetCore.Components.Server;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MoviesApp_BackEnd.Context;
+using MoviesApp_BackEnd.Models;
 using System.Net.Http;
 
 namespace MoviesApp_BackEnd.Controllers
@@ -7,17 +12,16 @@ namespace MoviesApp_BackEnd.Controllers
     [Route("api/[controller]")]
     public class MoviesController : ControllerBase
     {
-        [HttpGet("getmoviedata")]
-        public async Task<IActionResult> GetMovies()
+        [HttpPost("addToFav")]
+        public async Task<IActionResult> AddToFav(DbMoviesAppContext _dbcontext, UsersFavoriteMovies movie)
+
         {
+            Console.WriteLine(movie);
+            Console.WriteLine(movie.UserId);
 
-            var clientn = new HttpClient();
-
-            var response = await clientn.GetAsync("https://api.themoviedb.org/3/movie/550?api_key=85e18972fb774cd3a6c31b623a82b854");
-            var json_respuesta = response.Content.ReadAsStringAsync();
-
-            return Ok(json_respuesta);
-
+            await _dbcontext.UsersFavoriteMovies.AddAsync(movie);
+            await _dbcontext.SaveChangesAsync();
+            return Ok(new { message=movie.Id});
         }
     }
 }
