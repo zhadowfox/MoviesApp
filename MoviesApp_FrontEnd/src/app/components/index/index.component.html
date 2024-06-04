@@ -10,7 +10,7 @@
                 <div class="movie-release-date text-light fs-6 mt-2">Release: {{startingMovie?.release_date}}</div>
                 <div class="movie-buttons mt-2">
                     <button type="button" class="btn-dark btn-outline-light btn p-2" routerLink="/movies/details/{{startingMovie?.id}}">Ver mas</button>
-                    <app-addtofav [movieId]="startingMovie?.id ?? 0"></app-addtofav>
+                    <app-addtofav [movieId]="startingMovie?.id ?? 0" *ngIf="isLoggedIn"></app-addtofav>
                 </div>
             </div>
         </div>

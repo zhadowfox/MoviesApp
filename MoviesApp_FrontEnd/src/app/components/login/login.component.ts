@@ -4,6 +4,7 @@ import ValidateForm from '../../helpers/validateForm';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { UserStoreService } from '../../services/user-store.service';
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -48,6 +49,15 @@ export class LoginComponent{
           return this.router.navigate(['/'])
       },
       error:(err)=> {
+        Swal.fire({
+          title: "Ups",
+          text: "Tenemos errores en nuestros servidores, intenta mas tarde",
+          icon: "warning",
+          showConfirmButton:false,
+          showCancelButton:true,
+          cancelButtonColor:"#ff0000",
+          cancelButtonText:"Cerrar"
+        });
         this.loginResultVisible=true
         this.loginResultMessage=err.error.message
       },
